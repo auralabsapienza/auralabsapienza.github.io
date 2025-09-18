@@ -1,0 +1,175 @@
+%% JOURNALS
+
+@incollection
+{
+	J-DP25,
+	selected={false},
+	abbr={JAAMAS},
+	bibtex_show={true},
+	author				=	{Giuseppe {De Giacomo} and Giuseppe Perelli},
+	title					=	{Designing Equilibria in Concurrent Games with Social Welfare and Temporal Logic Constraints.},
+	abstract			=	{This paper introduces Behavioral QLTL, a "behavioral" variant of Linear Temporal Logic (LTL) with second-order quantifiers. Behavioral qltl is characterized by the fact that the functions that assign the truth value of the quantified proposi tions along the trace can only depend on the past. In other words, such functions must be "processes". This gives the logic a strategic flavor that we usually associate with planning. Indeed we show that temporally extended planning in
+	nondeterministic domains and ltl synthesis are expressed in Behavioral QLTL through formulas with a simple quantification alternation. As such alternation increases, we get to forms of planning/synthesis in which contingent and conformant planning aspects get mixed. We study this logic from the computational point of view and compare it to the original qltl (with non-behavioral semantics) and simpler forms of behavioral semantics.},
+	booktitle			=	{Autonomous Agent and Multi-Agent Systems},
+	year     			= {2025},
+	note       		= {to appear},
+}
+
+@incollection
+{
+	J-GNPW24,
+	selected={true},
+	abbr={LMCS},
+	bibtex_show={true},
+	author				=	{Julian Gutierrez and Muhammad Najib and Giuseppe Perelli and Michael Wooldridge},
+	title					=	{Designing Equilibria in Concurrent Games with Social Welfare and Temporal Logic Constraints.},
+	abstract			=	{In game theory, mechanism design is concerned with the design of incentives so that a desirable outcome will be achieved under the assumption that players act rationally. In this paper, we explore the concept of equilibrium design, where incentives are designed to obtain a desirable equilibrium that satisfies a specific temporal logic property. Our study is based on a framework where system specifications are represented as temporal logic formulae, games as quantitative concurrent game structures, and players’ goals as mean-payoff objectives. We consider system specifications given by LTL and GR(1) formulae, and show that designing incentives to ensure that a given temporal logic property is satisfied on some/every Nash equilibrium of the game can be achieved in PSPACE for LTL properties and in NP/\Sigma^P_2 for GR(1) specifications. We also examine the complexity of related decision and optimisation problems, such as optimality and uniqueness of solutions, as well as considering social welfare, and show that the complexities of these problems lie within the polynomial hierarchy. Equilibrium design can be used as an alternative solution to rational synthesis and verification problems for concurrent games with mean-payoff objectives when no solution exists or as a technique to repair concurrent games with undesirable Nash equilibria in an optimal way.},
+	booktitle			=	{Logical Methods in Computer Science},
+	year     			= {2024},
+	volume       	= {20},
+	issue       	= {4},
+	note					= {To appear},
+	pdf						=	{https://doi.org/10.46298/lmcs-20(4:21)2024}
+}
+
+
+%% CONFERENCES
+
+@inproceedings
+{
+	C-ALP25,
+	selected={true},
+	abbr={IJCAI-25},
+	bibtex_show={true},
+	author		= {Natasha Alechina and Brian Logan and Giuseppe Perelli},
+	title			= "{Synthesising Minimum Cost Dynamic Norms.}",
+	abstract 	=	"{A key problem in the design of normative multi-	agent systems is the cost of enforcing a norm (for the system operator) or complying with the norm (for the system users). If the cost is too high, ensuring compliant behavior may be uneconomic, or users may be deterred from participating in the MAS. In this paper, we consider the problem of synthesizing minimum cost dynamic norms to satisfy a system-level objective specified in Alternating Time Temporal Logic (ATL$^∗$ ). We show that synthesizing a dynamic norm under a bound on the cost of any prohibited set of actions has the same complexity as synthesizing arbitrary norms. We also show that synthesizing norms that minimize the average cost of the prohibited set of actions is unsolvable; however, synthesizing ε-optimal norms is possible.}",
+	booktitle	= {34th International Joint Conference on Artificial Intelligence, {IJCAI}},
+	year      = {2025},
+	notes     = {To appear},
+}
+
+@inproceedings
+{
+	C-FPPT24,
+	selected={false},
+	abbr={DL-24},
+	bibtex_show={true},
+	author				=	{Oliver Fernandez-Gil and Fabio Patrizi and Giuseppe Perelli and Anni-Yasmin Turhan},
+	title					=	{Optimal Alignment of Temporal Knowledge Bases (Extended Abstract).},
+	abstract			=	{Answering temporal CQs over temporalized Description Logic knowledge bases (TKB) is a main technique to realize ontology-based situation recognition. In case the collected data in such a knowledge base is inaccurate, important query answers can be missed.
+	In this paper we introduce the TKB Alignment problem, which computes a variant of the TKB that minimally changes the TKB, but entails the given temporal CQ and is in that sense (cost-)optimal. We investigate this problem for ALC TKBs and conjunctive queries with LTL operators and devise a solution technique to compute (cost-optimal) alignments of TKBs that extends techniques for the alignment problem for propositional LTL over finite traces.
+	},
+	booktitle			=	{37th International Workshop on Description Logics, {DL}},
+	year					=	{2024},
+	volume       = {3739},
+	publisher    = {CEUR-WS.org},
+	pdf          = {https://ceur-ws.org/Vol-3739/abstract-12.pdf},
+}
+
+@inproceedings
+{
+	C-JHNPW24,
+	selected={true},
+	abbr={KR-24},
+	bibtex_show={true},
+	author				=	{David Hyland and Munyque Mittelmann and Aniello Murano and Giuseppe Perelli and Michael Wooldridge},
+	title					=	{Incentive Design for Rational Agents.},
+	abstract			=	{We introduce Incentive Design: a new class of problems for	equilibrium verification in multi-agent systems. In our model, agents attempt to maximize their utility functions, which are expressed as formulae in LTL[F], a quantitative extension of Linear Temporal Logic with functions computable in polynomial time. We assume agents are rational, in the sense that	they adopt strategies consistent with game theoretic solution	concepts such as Nash equilibrium. For each solution concept	we consider, we analyze the problems of verifying whether an incentive scheme achieves a societal objective and finding one that does so, whether it be social welfare or any other	aggregate measure of collective well-being. We study both static and dynamic incentive schemes, showing that the latter are more powerful than the former. Finally, we solve the incentive verification and synthesis problems for all the solution concepts we consider, and analyze their complexity.
+	},
+	booktitle			=	{21st International Conference on Principles of Knowledge Representation and Reasoning, {KR}},
+	year					=	{2024},
+	pdf						=	{https://doi.org/10.24963/kr.2024/44}
+}
+
+
+@inproceedings
+{
+	C-JHNPW24,
+	selected={true},
+	abbr={ECAI-24},
+	bibtex_show={true},
+	author				=	{Muhammad Najib and Giuseppe Perelli},
+	title					=	{Synthesis of Reward Machines for Multi-Agent Equilibrium Design.},
+	abstract			=	{Mechanism design is a well-established paradigm in game theory, and it is concerned with designing games to achieve desired outcomes. This paper addresses a closely related but distinct concept, equilibrium design. Unlike mechanism design, the designer's authority in equilibrium design is more constrained; she can only modify the incentive structures in a given game to achieve certain outcomes without the ability to create the game from scratch. We study the problem of equilibrium design using dynamic incentive structures, known as reward machines.	We use weighted concurrent game structures for the game model, with goals (for the players and the designer) defined as mean-payoff objectives. We show how reward machines can be used to represent dynamic incentives that allocate rewards in a manner that optimises the designer's goal. We also introduce the main decision problem within our framework, the payoff improvement problem. This problem essentially asks whether there exists a dynamic incentive (represented by some reward machine) that can improve the designer's payoff by more than a given threshold value. We present two variants of the problem: strong and weak. We demonstrate that both can be solved in polynomial time using a Turing machine equipped with an NP oracle. Furthermore, we also establish that these variants are either NP-hard or coNP-hard. Finally, we show how to synthesise the corresponding reward machine if it exists.
+	},
+	booktitle			=	{27th European Conference on Artificial Intelligence, {ECAI}},
+	year					=	{2024},
+	series       = {Frontiers in Artificial Intelligence and Applications},
+	volume       = {392},
+	pages        = {2733--2740},
+	publisher    = {{IOS} Press},
+	pdf					 = {https://doi.org/10.3233/FAIA240807}
+}
+
+@inproceedings
+{
+	C-BLP24,
+	selected={false},
+	abbr={ISoLA-24},
+	bibtex_show={true},
+	author				=	{Paolo Bottoni and Anna Labella and Giuseppe Perelli},
+	title					=	"{Strategies in Spatio-Temporal Logics for Multi-Agent Systems}",
+	abstract			=	{ In distributed agent systems, agents with different abilities work autonomously to reach a common task, in the face of challenges posed by their environment. Two types of structures shape the collective behaviour of the system: a temporal one, defined by the progression of states the system goes through, and a spatial one, defined by the various constraints imposed by the environment on agents’ moves. We argue that both structures can be modelled in terms of suitable topologies, giving rise to a common categorical structure, namely that of trees labelled over a well-founded meet-semilattice, which in turn originates specific kinds of propositional and modal logics. As a result, it is immediate to model some sort of temporal logic on the properties of state sequences, with properties expressed as terms of the spatial logic. The same formalisation can be used to define the strategies determining the actual behavior of the agents. The modularity of the approach implies a theoretical simplification and suggests the possibility of a variety of applications.
+	},
+	booktitle			=	{12th International Symposium On Leveraging Applications of Formal Methods, Verification and Validation, {ISoLA}},
+	series       = {Lecture Notes in Computer Science},
+	volume       = {15219},
+	pages        = {287--305},
+	publisher    = {Springer},
+	year         = {2024},
+	pdf          = {https://doi.org/10.1007/978-3-031-73709-1\_18}
+}
+
+@inproceedings
+{
+	C-JHNPW24,
+	selected={true},
+	abbr={IJCAI-24},
+	bibtex_show={true},
+	author				=	{Julian Gutierrez and David Hyland and Muhammad Najib and Giuseppe Perelli and Michael Wooldridge},
+	title					=	{Endogenous Energy Reactive Modules Games: Modelling Side Payments Among Resource-Bounded Agents.},
+	abstract			=	{We introduce Energy Reactive Modules Games (ERMGs), an extension of Reactive Modules Games (RMGs) in which actions incur an energy cost (which may be positive or negative), and the choices that players make are restricted by the energy available to them. In ERMGs, each action is associated with an energy level update, which determines how their energy level is affected by the performance of the action. In addition, agents are
+	provided with an initial energy allowance. This allowance plays a crucial role in shaping an agent’s behaviour, as it must be taken into consideration when one is determining their strategy: agents may only perform actions if they have the requisite energy. We begin by studying rational verification for ERMGs, and then introduce Endogenous ERMGs, where agents can choose to transfer their energy to other agents. This exchange may enable equilibria that are impossible to achieve without such transfers. We study the decision problem of whether a stable outcome exists under both the Nash equilibrium and Core solution concepts.
+	},
+	booktitle			=	{33rd International Joint Conference on Artificial Intelligence, {IJCAI}},
+	pages        = {67--75},
+	publisher    = {ijcai.org},
+	year         = {2024},
+	pdf          = {https://www.ijcai.org/proceedings/2024/8}
+}
+
+@inproceedings
+{
+	C-JMMP24,
+	selected={true},
+	abbr={AAMAS-24},
+	bibtex_show={true},
+	author				=	{Wojtek Jamroga and Munyque Mittelmann and Aniello Murano and Giuseppe Perelli},
+	title					=	{Playing Quantitative Games Against an Authority: On the Module Checking Problem.},
+	abstract			=	{Module checking is a decision problem to formalize the verification of (possibly multi-agent) systems that must adapt their behavior to the input they receive from the environment, also viewed as an authority. So far, module checking has been only considered in the Boolean setting, which does not capture the different levels of quality inherent to complex systems (e.g., systems dealing with quantitative utilities or sensor inputs). In this paper, we address this issue by proposing quantitative module checking. We study the problem in the quantitative and multi-agent setting, which enables the verification of different levels of satisfaction in relation to a specification. We consider specifications given in Quantitative Alternating-time Temporal logics and investigate the complexity and expressivity results.
+	},
+	booktitle			=	{23rd International Conference on Autonomous Agents and Multi-Agent Systems, {AAMAS}},
+	pages        = {926--934},
+	publisher    = {{ACM}},
+	year         = {2024},
+	pdf          = {https://dl.acm.org/doi/10.5555/3635637.3662947},
+}
+
+@inproceedings
+{
+	C-ADDLPV24,
+	selected={true},
+	abbr={AAAI-24},
+	bibtex_show={true},
+	author				=	{Natasha Alechina and Mehdi Dastani and Giuseppe {De Giacomo} and Brian Logan and Giuseppe Perelli and Giovanni Varricchione},
+	title					=	{Pure-Past Action Masking.},
+	abstract			=	{We present Pure-Past Action Masking (PPAM), a lightweight approach to action masking for safe reinforcement learning. In PPAM, actions are disallowed ("masked") according to specifications expressed in Pure-Past Linear Temporal Logic (PPLTL). PPAM can enforce non-Markovian constraints, i.e.,
+	constraints based on the history of the system, rather than	just the current state of the (possibly hidden) MDP. The features used in the safety constraint need not be the same as those used by the learning agent, allowing a clear separation of concerns between the safety constraints and reward specifications of the (learning) agent. We prove formally that an agent trained with PPAM can learn any optimal policy that satisfies the safety constraints, and that they are as expressive as shields, another approach to enforce non-Markovian constraints in RL. Finally, we provide empirical results showing how PPAM can guarantee constraint satisfaction in practice.
+	},
+	booktitle			=	{38th Annual AAAI Conference on Artificial Intelligence, {AAAI}},
+	pages        = {21646--21655},
+	publisher    = {{AAAI} Press},
+	year					=	{2024},
+	pdf						=	{https://ojs.aaai.org/index.php/AAAI/article/view/30163}
+}
