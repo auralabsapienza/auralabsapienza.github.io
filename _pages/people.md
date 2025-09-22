@@ -29,7 +29,11 @@ nav: true
 </div>
 <div class="col-md-8">
 <div class="card-body">
+{% if member.website %}
+<a target="_blank" href="{{ member.website }}"><h5 class="card-title">{{ member.name }}</h5></a>
+{% else %}
 <h5 class="card-title">{{ member.name }}</h5>
+{% endif %}
 <p class="card-text mb-4">{{ member.info }}</p>
 
 {% if member.email %}
@@ -82,7 +86,11 @@ nav: true
 </div>
 <div class="col-md-8">
 <div class="card-body">
+{% if member.website %}
+<a target="_blank" href="{{ member.website }}"><h5 class="card-title">{{ member.name }}</h5></a>
+{% else %}
 <h5 class="card-title">{{ member.name }}</h5>
+{% endif %}
 <p class="card-text mb-4">{{ member.info }}</p>
 
 {% if member.email %}
@@ -142,7 +150,11 @@ nav: true
 </div>
 <div class="col-md-8">
 <div class="card-body">
+{% if member.website %}
+<a target="_blank" href="{{ member.website }}"><h5 class="card-title">{{ member.name }}</h5></a>
+{% else %}
 <h5 class="card-title">{{ member.name }}</h5>
+{% endif %}
 <p class="card-text mb-4">{{ member.info }}</p>
 
 {% if member.email %}
@@ -201,7 +213,11 @@ nav: true
 </div>
 <div class="col-md-8">
 <div class="card-body">
+{% if member.website %}
+<a target="_blank" href="{{ member.website }}"><h5 class="card-title">{{ member.name }}</h5></a>
+{% else %}
 <h5 class="card-title">{{ member.name }}</h5>
+{% endif %}
 <p class="card-text mb-4">{{ member.info }}</p>
 
 {% if member.email %}
