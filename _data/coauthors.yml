@@ -14,6 +14,10 @@
   - firstname: ["Shaull", "S."]
     url: https://shaull.cswp.cs.technion.ac.il/
 
+"Ateniese":
+  - firstname: ["Giuseppe", "G."]
+    url: https://ateniese.github.io/
+
 "Bottoni":
   - firstname: ["Paolo", "P."]
     url: https://www.di.uniroma1.it/it/docenti/bottoni-paolo
@@ -33,6 +37,10 @@
 "De Giacomo": 
   - firstname: ["Giuseppe", "G."]
     url: http://www.diag.uniroma1.it//degiacom/
+
+"Di Ciccio":
+  - firstname: ["Claudio", "C."]
+    url: https://www.diciccio.net/
     
 "Di Stasio": 
   - firstname: ["Antonio", "A."]
@@ -49,6 +57,10 @@
 "Fontaine": 
   - firstname: ["Gaelle", "G."]
     url: https://dblp.org/pid/51/399.html
+
+"Friolo":
+  - firstname: ["Daniele", "D."]
+    url: https://danielefriolo.github.io/
     
 "Gutierrez": 
   - firstname: ["Julian", "J."]
@@ -73,7 +85,11 @@
 "Kraus": 
   - firstname: ["Sarit", "P."]
     url: https://u.cs.biu.ac.il/~krauss/
-    
+
+"Kryston":
+  - firstname: ["Michele", "M."]
+    url: https://www.uu.nl/staff/MKryston
+
 "Kwiatkowska": 
   - firstname: ["Marta", "M.", "M. Z."]
     url: https://www.cs.ox.ac.uk/people/marta.kwiatkowska/
@@ -89,6 +105,10 @@
 "Logan":
   - firstname: ["Brian", "B."]
     url: https://alechina-logan.net/brian/
+
+"Marcelletti":
+  - firstname: ["Alessandro", "A"]
+    url: https://computerscience.unicam.it/alessandro-marcelletti
 
 "Marchioni":
   - firstname: ["Enrico", "E."]
@@ -128,6 +148,10 @@
 "Najib":
   - firstname: ["Muhammad", "M."]
     url: https://valvestate.github.io/
+
+"Nemmi":
+  - firstname: ["Eugenio Nerio", "E.N."]
+    url: https://corsidilaurea.uniroma1.it/docente/f3edede9ad82b990f1d4179db04e6e1f29f7e03ba76408889b17e8a4
     
 "Patrizi":
   - firstname: ["Fabio", "F."]
@@ -148,6 +172,10 @@
 "Rubin":
   - firstname: ["Sasha", "S."]
     url: https://sasharubin.github.io/
+
+"Samory":
+  - firstname: ["Mattia", "M."]
+    url: https://corsidilaurea.uniroma1.it/it/lecturer/1a1ac86e28807c8465fd68d17a0b76adaa1bdfc769ab8836a774c2d9
     
 "Sorrentino":
   - firstname: ["Loredana", "L."]
@@ -172,6 +200,14 @@
 "Varricchione":
   - firstname: ["Giovanni", "G."]
     url: https://giovannivarr.github.io/
+
+"Venturi":
+  - firstname: ["Daniele", "D."]
+    url: https://dventuri83.github.io/
+
+"Weber":
+  - firstname: ["Ingo", "I."]
+    url: https://www.imweber.de/
     
 "Wooldridge":
   - firstname: ["Michael", "M.", "M. J."]
