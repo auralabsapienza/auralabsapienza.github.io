@@ -18,6 +18,10 @@
   - firstname: ["Giuseppe", "G."]
     url: https://ateniese.github.io/
 
+"Barbaro":
+  - firstname: ["Luca", "L."]
+    url: https://phd.uniroma1.it/web/LUCA-BARBARO_nP1773371_IT.aspx
+
 "Bottoni":
   - firstname: ["Paolo", "P."]
     url: https://www.di.uniroma1.it/it/docenti/bottoni-paolo
@@ -102,6 +106,10 @@
   - firstname: ["Anna", "A."]
     url: http://wwwusers.di.uniroma1.it/~labella/
 
+"Leo":
+  - firstname: ["Sabrina", "S."]
+    url: https://sabrinaleo.site.uniroma1.it/
+
 "Logan":
   - firstname: ["Brian", "B."]
     url: https://alechina-logan.net/brian/
@@ -152,6 +160,10 @@
 "Nemmi":
   - firstname: ["Eugenio Nerio", "E.N."]
     url: https://corsidilaurea.uniroma1.it/docente/f3edede9ad82b990f1d4179db04e6e1f29f7e03ba76408889b17e8a4
+
+"Panetta":
+  - firstname: ["Ida Claudia", "I.C."]
+    url: https://corsidilaurea.uniroma1.it/it/lecturer/22969770-9eb1-42e7-92a9-e1592467ef81
     
 "Patrizi":
   - firstname: ["Fabio", "F."]
