@@ -40,11 +40,11 @@
 
 "De Giacomo": 
   - firstname: ["Giuseppe", "G."]
-    url: http://www.diag.uniroma1.it//degiacom/
+    url: https://www.cs.ox.ac.uk/people/giuseppe.degiacomo
 
 "Di Ciccio":
   - firstname: ["Claudio", "C."]
-    url: https://www.diciccio.net/
+    url: https://www.diciccio.net
     
 "Di Stasio": 
   - firstname: ["Antonio", "A."]
@@ -87,7 +87,7 @@
     url: https://home.ipipan.waw.pl/w.jamroga/
     
 "Kraus": 
-  - firstname: ["Sarit", "P."]
+  - firstname: ["Sarit", "S."]
     url: https://u.cs.biu.ac.il/~krauss/
 
 "Kryston":
@@ -187,7 +187,7 @@
 
 "Samory":
   - firstname: ["Mattia", "M."]
-    url: https://corsidilaurea.uniroma1.it/it/lecturer/1a1ac86e28807c8465fd68d17a0b76adaa1bdfc769ab8836a774c2d9
+    url: https://hide-ous.github.io/
     
 "Sorrentino":
   - firstname: ["Loredana", "L."]

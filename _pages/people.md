@@ -272,6 +272,23 @@ nav: true
 </div>
 <!-- {:/}   -->
 
+# External collaborators
+
+<div class="row  mt-4">
+
+<!-- {::nomarkdown} -->
+<ul>
+{% for member in site.data.collaborators %}
+    <li>
+        <a class="h5" href="{% if member.website %}{{ member.website }}{% endif %}" >{{ member.name }}</a>, {{ member.position }} at the {{ member.affiliation }}
+    </li>
+<br>
+{% endfor %}
+</ul>
+<!-- {:/} -->
+
+</div>
+
 # Visitors
 
 <div class="row  mt-4">
