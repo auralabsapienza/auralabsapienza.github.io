@@ -49,9 +49,8 @@
 	eprinttype    = {arXiv},
 	eprint       = {2308.03791},
 	timestamp    = {Mon, 05 Feb 2024 20:18:27 +0100},
-	biburl       = {https://dblp.org/rec/journals/corr/abs-2308-03791.bib},
-	bibsource    = {dblp computer science bibliography, https://dblp.org},
-	note         = {Submitted to ACM Transactions on Privacy and Security (ACM TOPS), under review}
+	note         = {Submitted to ACM Transactions on Privacy and Security (ACM TOPS), under review},
+	abstract	= {Blockchain technology is apt to facilitate the automation of multi-party cooperations among various players in a decentralized setting, especially in cases where trust among participants is limited. Transactions are stored in a ledger, a replica of which is retained by every node of the blockchain network. The operations saved thereby are thus publicly accessible. While this aspect enhances transparency, reliability, and persistence, it hinders the utilization of public blockchains for process automation as it violates typical confidentiality requirements in corporate settings. To overcome this issue, we propose our approach named Multi-Authority Approach to Transaction Systems for Interoperating Applications (MARTSIA). Based on Multi-Authority Attribute-Based Encryption (MA-ABE), MARTSIA enables read-access control over shared data at the level of message parts. User-defined policies determine whether an actor can interpret the publicly stored information or not, depending on the actor's attributes declared by a consortium of certifiers. Still, all nodes in the blockchain network can attest to the publication of the (encrypted) data. We provide a formal analysis of the security guarantees of MARTSIA, and illustrate the proof-of-concept implementation over multiple blockchain platforms. To demonstrate its interoperability, we showcase its usage in ensemble with a state-of-the-art blockchain-based engine for multi-party process execution, and three real-world decentralized applications in the context of NFT markets, supply chain, and retail.}
 }
 
 
@@ -215,8 +214,7 @@
 	eprinttype    = {arXiv},
 	eprint       = {2509.02413},
 	timestamp    = {Sun, 12 Oct 2025 18:22:42 +0200},
-	biburl       = {https://dblp.org/rec/journals/corr/abs-2509-02413.bib},
-	bibsource    = {dblp computer science bibliography, https://dblp.org}
+	abstract 	= {Enabling automated decision-making processes by leveraging data-driven analysis is a core goal of Decision Support Systems (DSSs). In multi-party scenarios where decisions rely on distributed and sensitive data, though, ensuring confidentiality, verifiability, transparency, integrity, and consistency at once remains an open challenge for DSSs. To tackle this multi-faceted problem, we propose the Secure Platform for Automated decision Rules via Trusted Applications (SPARTA) approach. By leveraging Trusted Execution Environments (TEEs) at its core, SPARTA ensures that the decision logic and the data remain protected. To guarantee transparency and consistency of the decision process, SPARTA encodes decision rules into verifiable software objects deployed within TEEs. To maintain the confidentiality of the outcomes while keeping the information integrity, SPARTA employs cryptography techniques on notarized data based on user-definable access policies. Based on experiments conducted on public benchmarks and synthetic data, we find our approach to be practically applicable and scalable.Enabling automated decision-making processes by leveraging data-driven analysis is a core goal of Decision Support Systems (DSSs). In multi-party scenarios where decisions rely on distributed and sensitive data, though, ensuring confidentiality, verifiability, transparency, integrity, and consistency at once remains an open challenge for DSSs. To tackle this multi-faceted problem, we propose the Secure Platform for Automated decision Rules via Trusted Applications (SPARTA) approach. By leveraging Trusted Execution Environments (TEEs) at its core, SPARTA ensures that the decision logic and the data remain protected. To guarantee transparency and consistency of the decision process, SPARTA encodes decision rules into verifiable software objects deployed within TEEs. To maintain the confidentiality of the outcomes while keeping the information integrity, SPARTA employs cryptography techniques on notarized data based on user-definable access policies. Based on experiments conducted on public benchmarks and synthetic data, we find our approach to be practically applicable and scalable.}
 }
 
 @InProceedings{confetty,
@@ -224,7 +222,7 @@
 	author	=	{Marcelletti, Alessandro
 	and Marangone, Edoardo
 	and Kryston, Michele
-	and Di Ciccio, Claudio},
+	and {Di Ciccio}, Claudio},
 	editor	=	{Senderovich, Arik
 	and Cabanillas, Cristina
 	and Vanderfeesten, Irene
@@ -235,6 +233,7 @@
 	publisher	=	{Springer Nature Switzerland},
 	address	=	{Cham},
 	pages	=	{238--255},
+	abstract = {Blockchain enables novel, trustworthy Process-Aware Information Systems (PAISs) by enforcing the security, robustness, and traceability of operations. In particular, transparency ensures that all information exchanges are openly accessible, fostering trust within the system. Although this is a desirable property to enable notarization and auditing activities, it also represents a limitation for such cases where confidentiality is a requirement since interactions involve sensitive data. Current solutions rely on obfuscation techniques or private infrastructures, hindering the enforcement capabilities of smart contracts and the public verifiability of transactions. Against this background, we propose CONFETTY, an architecture for blockchain-based PAISs to preserve confidentiality and transparency. Smart contracts enact, enforce and store public interactions, while attribute-based encryption techniques are adopted to specify access grants to confidential information. We assess the security of our solution through a systematic threat model analysis and evaluate its practical feasibility by gauging the performance of our implemented prototype in different scenarios from the literature.}
 }
 
 
@@ -261,8 +260,7 @@
 	pages        = {173--180},
 	publisher    = {Springer},
 	year         = {2025},
-	doi          = {10.1007/978-3-031-94590-8\_21},
-	timestamp    = {Sun, 06 Jul 2025 13:24:04 +0200},
+	abstract	 = {Blockchain technology streamlines multi-party collaborations in decentralized settings, especially when trust is limited or difficult to establish. While public blockchains enhance transparency and reliability by replicating data across all network nodes, they also conflict with confidentiality. Here, we introduce Multi-Authority Approach to Transaction Systems for Interoperating Applications (MARTSIA) to address this challenge. MARTSIA provides fine-grained read-access control at the message-part level by combining user-defined policies with certifier-declared attributes. The approach guarantees that even though data is replicated across the network to maintain consistency, fault tolerance, and availability, its confidentiality is securely preserved through encryption. To this end, MARTSIA integrates blockchain technologies, Multi-Authority Attribute-Based Encryption, and distributed hash-table file storages. This architecture effectively balances the transparency inherent in public blockchains with the privacy required for sensitive applications. We present the tool and its applicability in a business scenario.}
 }
 
 @TechReport{Leo.etal/BLINK,
@@ -271,5 +269,6 @@
 					and Marangone, Edoardo and Panetta, Ida Claudia and {Di
 					Ciccio}, Claudio},
 	title         = {BLINK: Blockchain-Linked Network for Credit Guarantee Institutions},
-	note        = {Accepted for publication at Financial Innovation Journal}
+	note        = {Accepted for publication at Financial Innovation Journal},
+	abstract = {Credit Guarantee Institutions (CGIs) provide a fundamental contribution in alleviating the financial constraints faced by a specific group of borrowers. However, critics highlight significant weaknesses, including the limited ability to maintain financial stability and operational effectiveness. This paper presents a framework for leveraging DLTs, specifically blockchain technologies, in CGI processes to enhance. To achieve this, we analyse critical architectural characteristics, considering access level, governance structure, and consensus method, to assess how well they align with CGI processes. This study has the potential to provide valuable guidance to policymakers and stakeholders, encouraging continued innovation in this promising field.}
 }
