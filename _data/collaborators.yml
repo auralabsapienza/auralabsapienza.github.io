@@ -28,17 +28,17 @@
   email:
   website: https://alechina-logan.net/brian/
 
-- name: Muhammad Najib
-  affiliation: Heriot-Watt University of Edinburgh
-  position: Assistant Professor
-  email:
-  website: https://valvestate.github.io
-
 - name: Aniello Murano
   affiliation: University of Naples 'Federico II'
   position: Full Professor
   email:
   website: https://people.na.infn.it/~murano
+
+- name: Muhammad Najib
+  affiliation: Heriot-Watt University of Edinburgh
+  position: Assistant Professor
+  email:
+  website: https://valvestate.github.io
 
 - name: Michael Wooldridge
   affiliation: University of Oxford
