@@ -22,6 +22,10 @@
   - firstname: ["Luca", "L."]
     url: https://phd.uniroma1.it/web/LUCA-BARBARO_nP1773371_IT.aspx
 
+"Betello":
+  - firstname: ["Filippo", "F."]
+    url: https://scholar.google.com/citations?user=ZjIo22MAAAAJ
+
 "Bottoni":
   - firstname: ["Paolo", "P."]
     url: https://www.di.uniroma1.it/it/docenti/bottoni-paolo
@@ -192,6 +196,14 @@
 "Samory":
   - firstname: ["Mattia", "M."]
     url: https://hide-ous.github.io/
+
+"Scarcelli":
+  - firstname: ["Domiziano", "D."]
+    url: https://github.com/DomizianoScarcelli
+
+"Silvestri":
+  - firstname: ["Fabrizio", "F."]
+    url: https://sites.google.com/diag.uniroma1.it/fabriziosilvestri/home
     
 "Sorrentino":
   - firstname: ["Loredana", "L."]
@@ -200,6 +212,10 @@
 "Steeples":
   - firstname: ["Thomas", "T."]
     url: https://www.thomassteeples.co.uk/
+
+"Tolomei":
+  - firstname: ["Gabriele", "G."]
+    url: https://gabrieletolomei.netlify.app
 
 "Toumi":
   - firstname: ["Alexis", "A."]
