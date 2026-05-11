@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ASGARD
-description: Progetto Grande di Ateneo - University of Rome "La Sapienza"
+description: Progetto Grande di Ateneo (2024/2026) - Principal Investigator
 importance: 1
 category: current
 ---
