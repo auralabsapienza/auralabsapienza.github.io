@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ALARMS
-description: Progetto Grande di Ateneo (2026/2028) - Principal Investigator
+description: Progetto Grande di Ateneo (2026/2028)
 importance: 1
 category: current
 ---
