@@ -305,3 +305,20 @@ nav: true
 <!-- {:/} -->
 
 </div>
+
+## Former members
+
+<div class="row  mt-4">
+
+<!-- {::nomarkdown} -->
+<ul>
+{% for member in site.data.former %}
+    <li>
+        <a class="h5" href="{% if member.website %}{{ member.website }}{% endif %}" >{{ member.name }}</a>, {{ member.role}} ({{ member.stay}})
+    </li>
+<br>
+{% endfor %}
+</ul>
+<!-- {:/} -->
+
+</div>
